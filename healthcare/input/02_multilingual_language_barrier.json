@@ -1,0 +1,127 @@
+{
+  "conversation_id": "conv-002-language-barrier",
+  "scenario": "multilingual_consultation",
+  "title": "Emergency department visit with limited language proficiency",
+  "setting": "Emergency department, hospital interpreter present",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "participants": [
+    {
+      "id": "dr_lindqvist",
+      "role": "doctor",
+      "name": "Dr. Lindqvist",
+      "preferred_language": "en"
+    },
+    {
+      "id": "pt_morales",
+      "role": "patient",
+      "name": "Sofia Morales",
+      "preferred_language": "es"
+    },
+    {
+      "id": "int_reyes",
+      "role": "interpreter",
+      "name": "Interpreter Reyes"
+    }
+  ],
+  "patient_context": {
+    "age": 31,
+    "sex": "female",
+    "known_conditions": [
+      "pregnancy - 28 weeks"
+    ],
+    "current_medications": [
+      "prenatal vitamins"
+    ],
+    "allergies": [
+      "none known"
+    ],
+    "reason_for_visit": "Abdominal pain and headache",
+    "language_note": "Patient speaks Spanish; clinician speaks English; conversation conducted via hospital interpreter."
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "dr_lindqvist",
+      "role": "doctor",
+      "language": "en",
+      "text": "Hello, I'm Dr. Lindqvist. I understand you're 28 weeks pregnant and having some pain. Can you tell me what's going on?",
+      "translated_text": "Hola, soy la Dra. Lindqvist. Entiendo que tiene 28 semanas de embarazo y siente dolor. ¿Puede contarme qué le pasa?",
+      "timestamp": "14:22:00"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_morales",
+      "role": "patient",
+      "language": "es",
+      "text": "Me duele mucho la cabeza desde ayer y tengo dolor aquí arriba en la barriga. Y veo como lucecitas a veces.",
+      "translated_text": "I've had a bad headache since yesterday and I have pain up here in my belly. And sometimes I see little lights.",
+      "timestamp": "14:22:20"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "dr_lindqvist",
+      "role": "doctor",
+      "language": "en",
+      "text": "The lights you see - are they in both eyes? And have you noticed any swelling in your hands or face?",
+      "translated_text": "Las lucecitas que ve, ¿son en los dos ojos? ¿Y ha notado hinchazón en las manos o la cara?",
+      "timestamp": "14:22:55"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "pt_morales",
+      "role": "patient",
+      "language": "es",
+      "text": "Sí, los dos ojos. Y mis manos están hinchadas, mire, no me entra el anillo desde hace dos días.",
+      "translated_text": "Yes, both eyes. And my hands are swollen - look, my ring hasn't fit for two days.",
+      "timestamp": "14:23:15"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "dr_lindqvist",
+      "role": "doctor",
+      "language": "en",
+      "text": "Okay. I'm going to check your blood pressure right away and test your urine. I'm a little concerned about a condition called pre-eclampsia, which can happen in pregnancy. We're going to take very good care of you and the baby.",
+      "translated_text": "Bien. Voy a tomarle la presión ahora mismo y analizar su orina. Me preocupa un poco una condición del embarazo llamada preeclampsia. Vamos a cuidarla muy bien a usted y al bebé.",
+      "timestamp": "14:23:40"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_morales",
+      "role": "patient",
+      "language": "es",
+      "text": "¿El bebé está bien? Tengo mucho miedo.",
+      "translated_text": "Is the baby okay? I'm very scared.",
+      "timestamp": "14:23:58"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "dr_lindqvist",
+      "role": "doctor",
+      "language": "en",
+      "text": "I understand you're scared - that's completely normal. We'll listen to the baby's heartbeat right now so we both know how the baby is doing. You did the right thing coming in.",
+      "translated_text": "Entiendo que tenga miedo, es completamente normal. Vamos a escuchar el latido del bebé ahora mismo para que las dos sepamos cómo está. Hizo lo correcto en venir.",
+      "timestamp": "14:24:20"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "int_reyes",
+      "role": "interpreter",
+      "language": "es",
+      "text": "La doctora dice que le va a tomar la presión, analizar la orina y escuchar el corazón del bebé ahora mismo. ¿Está de acuerdo?",
+      "translated_text": "The doctor says she will check your blood pressure, test your urine, and listen to the baby's heart right now. Do you agree?",
+      "timestamp": "14:24:40"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "pt_morales",
+      "role": "patient",
+      "language": "es",
+      "text": "Sí, sí, está bien. Gracias.",
+      "translated_text": "Yes, yes, that's fine. Thank you.",
+      "timestamp": "14:24:50"
+    }
+  ]
+}

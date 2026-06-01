@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv-003-nurse-triage",
+  "ground_truth": {
+    "chief_complaint": "Deep hand laceration with fever and rigors",
+    "symptoms": [
+      {
+        "name": "laceration",
+        "location": "hand",
+        "onset": "~3 hours ago",
+        "mechanism": "broken glass at work",
+        "depth": "deep, bleeding stopped",
+        "pain_score": "4/10"
+      },
+      {
+        "name": "fever",
+        "context": "since the afternoon",
+        "measured": "38.6 C"
+      },
+      {
+        "name": "rigors",
+        "detail": "ongoing shivering"
+      },
+      {
+        "name": "wound redness and warmth",
+        "detail": "skin around the cut is red and warm"
+      }
+    ],
+    "relevant_history": [
+      "Asthma (patient context)",
+      "Tetanus immunization status unknown - to be checked in records (stated turns 6-7)"
+    ],
+    "vitals": {
+      "temperature_c": 38.6,
+      "heart_rate_bpm": 104,
+      "blood_pressure": "stated as still to be checked",
+      "note": "Respiratory rate and SpO2 were not discussed in the conversation"
+    },
+    "diagnosis": {
+      "primary": "Hand laceration with possible wound infection - nurse links the fever, fast heart rate and redness (turn 9); not a confirmed diagnosis"
+    },
+    "ordered_tests": [
+      "Blood pressure (nurse states she will check it)",
+      "Doctor assessment (nurse states a doctor will see the patient)"
+    ],
+    "prescribed_medication": [],
+    "procedures": [],
+    "referrals": [],
+    "triage_decision": {
+      "urgency": "Expedited - nurse decides the patient should be seen by a doctor 'fairly soon' rather than wait a long time (turn 9)",
+      "rationale": "Fever 38.6 C, heart rate 104 bpm, and local wound redness (stated by nurse)"
+    },
+    "follow_up": [
+      "Check tetanus status in records (stated turn 7)",
+      "Doctor assessment of the wound (stated turn 9)"
+    ],
+    "patient_education": [],
+    "clinical_note": {
+      "format": "triage_summary",
+      "chief_complaint": "Deep hand laceration ~3h ago from broken glass, with fever and rigors since the afternoon.",
+      "history": "27M, asthma (per context). Pain 4/10 at wound. Reports shivering and feeling feverish. Skin around the cut red and warm. Tetanus status unknown.",
+      "vitals": "Temperature 38.6 C, heart rate 104 bpm; blood pressure still to be taken.",
+      "impression": "Hand laceration with possible wound infection; nurse expedites physician assessment."
+    }
+  }
+}

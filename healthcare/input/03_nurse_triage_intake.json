@@ -1,0 +1,119 @@
+{
+  "conversation_id": "conv-003-nurse-triage",
+  "scenario": "nurse_triage_intake",
+  "title": "Nurse triage and intake interview",
+  "setting": "Emergency department triage desk",
+  "languages": [
+    "en"
+  ],
+  "participants": [
+    {
+      "id": "nr_adeyemi",
+      "role": "nurse",
+      "name": "Nurse Adeyemi"
+    },
+    {
+      "id": "pt_kovac",
+      "role": "patient",
+      "name": "Daniel Kovac"
+    }
+  ],
+  "patient_context": {
+    "age": 27,
+    "sex": "male",
+    "known_conditions": [
+      "asthma"
+    ],
+    "current_medications": [
+      "salbutamol inhaler as needed"
+    ],
+    "allergies": [
+      "none known"
+    ],
+    "reason_for_visit": "Cut on hand and feeling unwell",
+    "arrival_mode": "walk-in"
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "nr_adeyemi",
+      "role": "nurse",
+      "language": "en",
+      "text": "Hi Daniel, I'm one of the triage nurses. What's brought you in today?",
+      "translated_text": null,
+      "timestamp": "18:40:02"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_kovac",
+      "role": "patient",
+      "language": "en",
+      "text": "I cut my hand on a broken glass at work about three hours ago. It stopped bleeding but it's pretty deep. And honestly I've been feeling kind of feverish and shaky since this afternoon, but that might be unrelated.",
+      "translated_text": null,
+      "timestamp": "18:40:20"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "nr_adeyemi",
+      "role": "nurse",
+      "language": "en",
+      "text": "Let me take a look at the hand. On a scale of zero to ten, how bad is the pain right now?",
+      "translated_text": null,
+      "timestamp": "18:40:38"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "pt_kovac",
+      "role": "patient",
+      "language": "en",
+      "text": "The hand is maybe a four. The feeling-sick part is what's worrying me more, to be honest. I can't really stop shivering.",
+      "translated_text": null,
+      "timestamp": "18:40:55"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "nr_adeyemi",
+      "role": "nurse",
+      "language": "en",
+      "text": "Okay, I'm going to check your temperature, pulse, and blood pressure. When did you last have a tetanus shot, do you remember?",
+      "translated_text": null,
+      "timestamp": "18:41:10"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_kovac",
+      "role": "patient",
+      "language": "en",
+      "text": "Honestly no idea. Maybe when I was a teenager? I don't keep track of that stuff.",
+      "translated_text": null,
+      "timestamp": "18:41:24"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "nr_adeyemi",
+      "role": "nurse",
+      "language": "en",
+      "text": "No problem, we can check your records. Your temperature is 38.6, and your heart rate is a bit fast at 104. Any chance you've felt the wound area getting hot, red, or more swollen since this morning?",
+      "translated_text": null,
+      "timestamp": "18:41:50"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "pt_kovac",
+      "role": "patient",
+      "language": "en",
+      "text": "Yeah, actually the skin around the cut is red and kind of warm. I figured that's normal for a cut though.",
+      "translated_text": null,
+      "timestamp": "18:42:08"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "nr_adeyemi",
+      "role": "nurse",
+      "language": "en",
+      "text": "Thanks for telling me. With the fever, the fast heart rate, and the redness, I want a doctor to see you fairly soon rather than have you wait a long time. I'll get you through to be assessed.",
+      "translated_text": null,
+      "timestamp": "18:42:30"
+    }
+  ]
+}

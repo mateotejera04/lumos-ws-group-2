@@ -1,0 +1,128 @@
+{
+  "conversation_id": "conv-006-discharge",
+  "scenario": "discharge_instructions",
+  "title": "Discharge instructions after laparoscopic appendectomy",
+  "setting": "Surgical ward, day of discharge",
+  "languages": [
+    "en"
+  ],
+  "participants": [
+    {
+      "id": "nr_oconnor",
+      "role": "nurse",
+      "name": "Nurse O'Connor"
+    },
+    {
+      "id": "pt_bauer",
+      "role": "patient",
+      "name": "Lena Bauer"
+    }
+  ],
+  "patient_context": {
+    "age": 23,
+    "sex": "female",
+    "known_conditions": [
+      "none"
+    ],
+    "current_medications": [
+      "combined oral contraceptive pill"
+    ],
+    "allergies": [
+      "none known"
+    ],
+    "reason_for_visit": "Day 1 post laparoscopic appendectomy for acute appendicitis",
+    "procedure_done": "Laparoscopic appendectomy"
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "nr_oconnor",
+      "role": "nurse",
+      "language": "en",
+      "text": "Hi Lena, good news - the surgeon is happy for you to go home today. I'd like to go through your discharge instructions so you know what to expect. Is now a good time?",
+      "translated_text": null,
+      "timestamp": "13:30:00"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_bauer",
+      "role": "patient",
+      "language": "en",
+      "text": "Yes please. I'm a bit nervous about the wounds, honestly. And I'm a student, I have exams in two weeks - can I go back to classes?",
+      "translated_text": null,
+      "timestamp": "13:30:20"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "nr_oconnor",
+      "role": "nurse",
+      "language": "en",
+      "text": "Let's cover all of that. You have three small keyhole wounds with dissolvable stitches and a clear dressing. Keep them clean and dry for 48 hours, then you can shower normally - just pat them dry. The dressings can come off after five days. For classes, you can return to light activity and studying in about a week, but avoid heavy lifting or strenuous exercise for two to three weeks.",
+      "translated_text": null,
+      "timestamp": "13:30:55"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "pt_bauer",
+      "role": "patient",
+      "language": "en",
+      "text": "Okay. What about the pain? It's not too bad right now but I think that's the medication they gave me.",
+      "translated_text": null,
+      "timestamp": "13:31:20"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "nr_oconnor",
+      "role": "nurse",
+      "language": "en",
+      "text": "Right. We're sending you home with paracetamol and ibuprofen - take them regularly for the first few days, even if the pain seems manageable, because it's easier to stay on top of it. You can take paracetamol 1 gram four times a day and ibuprofen 400 milligrams three times a day with food. We'll also give you a short course of codeine for breakthrough pain only if you need it.",
+      "translated_text": null,
+      "timestamp": "13:32:00"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_bauer",
+      "role": "patient",
+      "language": "en",
+      "text": "Got it. Is there anything I should watch out for? Like signs something's wrong?",
+      "translated_text": null,
+      "timestamp": "13:32:25"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "nr_oconnor",
+      "role": "nurse",
+      "language": "en",
+      "text": "Yes, this is the important part. Come back or call us if you get a fever above 38, if the wounds become red, swollen, or start leaking fluid, if your tummy pain gets worse rather than better, or if you have repeated vomiting or can't pass wind or open your bowels for a few days. Those could mean infection or a complication.",
+      "translated_text": null,
+      "timestamp": "13:33:00"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "pt_bauer",
+      "role": "patient",
+      "language": "en",
+      "text": "Okay - so fever, redness, leaking, worse pain, or being sick. One more thing, I'm on the pill and they gave me an antibiotic. Does that affect it?",
+      "translated_text": null,
+      "timestamp": "13:33:30"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "nr_oconnor",
+      "role": "nurse",
+      "language": "en",
+      "text": "Great that you asked. The antibiotic itself doesn't reduce the pill's effectiveness, but if you vomit within a couple of hours of taking your pill it might not be absorbed - so use condoms as backup if you're being sick. I'll write all of this on your discharge sheet, and you have a follow-up phone call booked with the surgical team in two weeks. Can you tell me back the main warning signs, just so I know it's all clear?",
+      "translated_text": null,
+      "timestamp": "13:34:05"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "pt_bauer",
+      "role": "patient",
+      "language": "en",
+      "text": "Sure - fever over 38, the wounds going red or leaking, pain getting worse, throwing up or not being able to go to the toilet. And keep the wounds dry for two days, no heavy lifting for a few weeks.",
+      "translated_text": null,
+      "timestamp": "13:34:35"
+    }
+  ]
+}

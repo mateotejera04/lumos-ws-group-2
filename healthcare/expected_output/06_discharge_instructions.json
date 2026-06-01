@@ -1,0 +1,83 @@
+{
+  "conversation_id": "conv-006-discharge",
+  "ground_truth": {
+    "chief_complaint": "Discharge after laparoscopic appendectomy",
+    "symptoms": [
+      {
+        "name": "post-operative pain",
+        "severity": "currently mild, attributed by patient to the medication (turn 4)"
+      }
+    ],
+    "relevant_history": [
+      "Day 1 post laparoscopic appendectomy for acute appendicitis (patient context)",
+      "On combined oral contraceptive pill (patient context, raised turn 8)",
+      "Student with exams in 2 weeks (stated turn 2)"
+    ],
+    "vitals": {
+      "status": "not measured during the conversation; surgeon happy for discharge (turn 1)"
+    },
+    "diagnosis": {
+      "primary": "Acute appendicitis, post laparoscopic appendectomy (patient context / surgeon happy to discharge)"
+    },
+    "procedures": [
+      "Laparoscopic appendectomy (patient context)"
+    ],
+    "ordered_tests": [],
+    "prescribed_medication": [
+      {
+        "drug": "paracetamol",
+        "dose": "1g",
+        "frequency": "four times daily",
+        "indication": "post-operative pain",
+        "notes": "take regularly for the first few days (turn 5)"
+      },
+      {
+        "drug": "ibuprofen",
+        "dose": "400mg",
+        "frequency": "three times daily with food",
+        "indication": "post-operative pain",
+        "source": "turn 5"
+      },
+      {
+        "drug": "codeine",
+        "dose": "not specified",
+        "frequency": "as needed for breakthrough pain only",
+        "indication": "breakthrough pain",
+        "notes": "short course (turn 5)"
+      },
+      {
+        "drug": "antibiotic",
+        "dose": "not specified",
+        "frequency": "short course",
+        "indication": "post-operative course",
+        "source": "mentioned by patient and nurse (turns 8-9)"
+      }
+    ],
+    "referrals": [],
+    "follow_up": [
+      "Telephone follow-up with the surgical team in 2 weeks (stated turn 9)",
+      "Dissolvable stitches - no removal needed; remove dressings after 5 days (stated turn 3)",
+      "Return to light activity/study in about a week; avoid heavy lifting and strenuous exercise for 2-3 weeks (stated turn 3)"
+    ],
+    "warning_signs_safety_netting": [
+      "Fever above 38 C",
+      "Wound becoming red, swollen, or leaking fluid",
+      "Abdominal pain getting worse rather than better",
+      "Repeated vomiting",
+      "Unable to pass wind or open bowels for several days"
+    ],
+    "patient_education": [
+      "Keep wounds clean and dry for 48 hours, then shower and pat dry; dressings off after 5 days (turn 3)",
+      "Take pain relief regularly for the first few days (turn 5)",
+      "Antibiotic does not reduce the pill's effectiveness, but vomiting within ~2 hours of the pill may - use condoms as backup if vomiting (turn 9)",
+      "Teach-back done: patient correctly repeated the warning signs and wound-care advice (turn 10)"
+    ],
+    "clinical_note": {
+      "format": "discharge_summary",
+      "summary": "23F, day 1 post laparoscopic appendectomy for acute appendicitis (per context). Surgeon happy to discharge. Wound care, graded return to activity, analgesia plan and warning signs provided. Pill/antibiotic counselling given.",
+      "discharge_medications": "Paracetamol, ibuprofen, short course of codeine PRN, post-operative antibiotic course.",
+      "follow_up": "Telephone review with surgical team in 2 weeks. Return advice given.",
+      "teach_back": "Patient accurately repeated the warning signs and wound-care instructions."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "conversation_id": "conv-001-chest-pain",
+  "scenario": "general_consultation",
+  "title": "General consultation - intermittent chest pain",
+  "setting": "Outpatient general medicine clinic",
+  "languages": [
+    "en"
+  ],
+  "participants": [
+    {
+      "id": "dr_navarro",
+      "role": "doctor",
+      "name": "Dr. Navarro"
+    },
+    {
+      "id": "pt_okafor",
+      "role": "patient",
+      "name": "James Okafor"
+    }
+  ],
+  "patient_context": {
+    "age": 54,
+    "sex": "male",
+    "known_conditions": [
+      "hypertension",
+      "type 2 diabetes"
+    ],
+    "current_medications": [
+      "lisinopril 10mg daily",
+      "metformin 500mg twice daily"
+    ],
+    "allergies": [
+      "penicillin"
+    ],
+    "reason_for_visit": "Chest discomfort over the past week"
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "Good morning James, thanks for coming in. What brings you here today?",
+      "translated_text": null,
+      "timestamp": "09:00:05"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_okafor",
+      "role": "patient",
+      "language": "en",
+      "text": "Morning doctor. I've been getting this... pressure in my chest. It comes and goes. I wasn't sure if it's worth mentioning but my wife told me to come.",
+      "translated_text": null,
+      "timestamp": "09:00:18"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "I'm glad you came. Can you tell me when it started and what it feels like exactly?",
+      "translated_text": null,
+      "timestamp": "09:00:30"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "pt_okafor",
+      "role": "patient",
+      "language": "en",
+      "text": "Maybe a week ago? It's like a tightness, right here in the middle. Usually when I walk up the stairs at home. It goes away if I sit down for a few minutes.",
+      "translated_text": null,
+      "timestamp": "09:00:48"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "Does the pain go anywhere else - your arm, jaw, back? And do you ever feel short of breath or sweaty when it happens?",
+      "translated_text": null,
+      "timestamp": "09:01:10"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_okafor",
+      "role": "patient",
+      "language": "en",
+      "text": "Now that you say it, sometimes my left arm feels heavy. I get a bit out of breath too but I figured that's just my age and being out of shape.",
+      "translated_text": null,
+      "timestamp": "09:01:28"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "Okay. Have you had any episodes while resting, or only with activity? And has anything like this happened before?",
+      "translated_text": null,
+      "timestamp": "09:01:50"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "pt_okafor",
+      "role": "patient",
+      "language": "en",
+      "text": "Only when I'm doing something. Never just sitting. It's never happened before this week. Oh - and I forgot, my father had a heart attack at 60.",
+      "translated_text": null,
+      "timestamp": "09:02:15"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "That's important, thank you. Given your description and your history, I want to take this seriously. We'll do an ECG right now and some blood tests. This pattern needs prompt evaluation - I don't want you climbing stairs until we know more.",
+      "translated_text": null,
+      "timestamp": "09:02:40"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "pt_okafor",
+      "role": "patient",
+      "language": "en",
+      "text": "Is it serious? I have a trip planned next week.",
+      "translated_text": null,
+      "timestamp": "09:02:55"
+    },
+    {
+      "turn": 11,
+      "speaker_id": "dr_navarro",
+      "role": "doctor",
+      "language": "en",
+      "text": "It could be your heart not getting enough blood when you exert yourself, which we call angina. It's very treatable but we need to confirm today. I'm going to start you on a low-dose aspirin and a glyceryl trinitrate spray to use if the pain comes on, and we'll talk through the test results together.",
+      "translated_text": null,
+      "timestamp": "09:03:20"
+    }
+  ]
+}

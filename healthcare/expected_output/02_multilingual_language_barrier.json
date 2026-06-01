@@ -1,0 +1,59 @@
+{
+  "conversation_id": "conv-002-language-barrier",
+  "ground_truth": {
+    "chief_complaint": "Headache, upper abdominal pain and visual disturbances at 28 weeks gestation",
+    "symptoms": [
+      {
+        "name": "headache",
+        "onset": "since yesterday",
+        "severity": "described as bad"
+      },
+      {
+        "name": "epigastric pain",
+        "location": "upper abdomen / belly"
+      },
+      {
+        "name": "visual disturbance",
+        "detail": "little lights, in both eyes"
+      },
+      {
+        "name": "hand swelling",
+        "duration": "2 days (ring no longer fits)"
+      }
+    ],
+    "relevant_history": [
+      "Pregnant, 28 weeks gestation (patient context, confirmed by doctor)",
+      "On prenatal vitamins (patient context)",
+      "Spanish-speaking; consultation conducted via hospital interpreter"
+    ],
+    "vitals": {
+      "status": "blood pressure not yet measured during the conversation"
+    },
+    "diagnosis": {
+      "primary": "Pre-eclampsia (suspected) - named by the doctor as 'a condition called pre-eclampsia'"
+    },
+    "ordered_tests": [
+      "Blood pressure measurement (stated)",
+      "Urine test (stated)"
+    ],
+    "prescribed_medication": [],
+    "procedures": [
+      "Listen to the baby's heartbeat (stated turn 7)"
+    ],
+    "referrals": [],
+    "follow_up": [
+      "Confirmed patient consent to the planned checks (turns 8-9)"
+    ],
+    "patient_education": [
+      "Doctor named and briefly explained pre-eclampsia (turn 5)",
+      "Reassurance given about taking care of mother and baby (turns 5, 7)"
+    ],
+    "clinical_note": {
+      "format": "SOAP",
+      "subjective": "31F at 28 weeks gestation, Spanish-speaking (interpreter present). Reports headache since yesterday, upper-abdominal pain, lights in both eyes, and 2 days of hand swelling. Anxious about the baby.",
+      "objective": "No vitals recorded during the conversation. Blood pressure, urine test and fetal heart auscultation planned.",
+      "assessment": "Suspected pre-eclampsia (doctor's stated concern) given headache, visual symptoms, epigastric pain and hand swelling in pregnancy.",
+      "plan": "Measure blood pressure, test urine, and listen to the baby's heartbeat now. Reassure and explain. Consent obtained via interpreter."
+    }
+  }
+}

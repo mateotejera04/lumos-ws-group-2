@@ -1,0 +1,6 @@
+# Compiled executable
+/banking
+
+# Runtime indexed data files (plus GnuCOBOL alternate-index sidecars)
+/data/*.dat
+/data/*.dat.*

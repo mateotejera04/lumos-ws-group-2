@@ -1,0 +1,129 @@
+{
+  "conversation_id": "conv-004-med-reconciliation",
+  "scenario": "medication_reconciliation",
+  "title": "Medication reconciliation with an elderly patient who forgets details",
+  "setting": "Geriatric outpatient clinic, patient attending with adult daughter",
+  "languages": [
+    "en"
+  ],
+  "participants": [
+    {
+      "id": "dr_hassan",
+      "role": "doctor",
+      "name": "Dr. Hassan"
+    },
+    {
+      "id": "pt_whitfield",
+      "role": "patient",
+      "name": "Margaret Whitfield"
+    },
+    {
+      "id": "cg_whitfield",
+      "role": "caregiver",
+      "name": "Ellen Whitfield (daughter)"
+    }
+  ],
+  "patient_context": {
+    "age": 78,
+    "sex": "female",
+    "known_conditions": [
+      "atrial fibrillation",
+      "hypertension",
+      "osteoarthritis",
+      "mild cognitive impairment"
+    ],
+    "current_medications_on_file": [
+      "apixaban 5mg twice daily",
+      "bisoprolol 2.5mg daily",
+      "amlodipine 5mg daily",
+      "paracetamol as needed"
+    ],
+    "allergies": [
+      "none known"
+    ],
+    "reason_for_visit": "Routine review; daughter concerned about confusion over tablets"
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "dr_hassan",
+      "role": "doctor",
+      "language": "en",
+      "text": "Hello Margaret, lovely to see you. I'd like to go through your medications today to make sure our list matches what you're actually taking. Can you tell me what you take in the mornings?",
+      "translated_text": null,
+      "timestamp": "11:05:00"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_whitfield",
+      "role": "patient",
+      "language": "en",
+      "text": "Oh, the little white one, and the pink one I think. There's a few of them. I have a box with the days on it, my daughter sorts it.",
+      "translated_text": null,
+      "timestamp": "11:05:20"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "dr_hassan",
+      "role": "doctor",
+      "language": "en",
+      "text": "That's perfectly fine. Ellen, do you have the list or the boxes with you?",
+      "translated_text": null,
+      "timestamp": "11:05:35"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "cg_whitfield",
+      "role": "caregiver",
+      "language": "en",
+      "text": "I do. She takes the apixaban twice a day, the bisoprolol and the amlodipine in the morning. But the thing is, last month her old GP added a water tablet - furosemide I think - for her ankles, and nobody told me to stop the amlodipine, so I wasn't sure if she should be on both.",
+      "translated_text": null,
+      "timestamp": "11:06:00"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "dr_hassan",
+      "role": "doctor",
+      "language": "en",
+      "text": "That's really important - thank you. So there's a furosemide that isn't on my list yet. Margaret, have you been getting any dizziness, especially standing up?",
+      "translated_text": null,
+      "timestamp": "11:06:25"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_whitfield",
+      "role": "patient",
+      "language": "en",
+      "text": "I did have a fall in the bathroom. Two weeks ago? It was nothing, I just felt a bit wobbly. I didn't want to bother anyone.",
+      "translated_text": null,
+      "timestamp": "11:06:45"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "cg_whitfield",
+      "role": "caregiver",
+      "language": "en",
+      "text": "Mum, you didn't tell me you fell! She also sometimes takes an old ibuprofen from the cupboard for her knees, I've found the packet by her chair.",
+      "translated_text": null,
+      "timestamp": "11:07:05"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "dr_hassan",
+      "role": "doctor",
+      "language": "en",
+      "text": "Okay, this is exactly why these reviews matter. Two things stand out: the ibuprofen can interact with her blood thinner and her blood pressure tablets, and the new water tablet plus the fall makes me want to check her standing blood pressure and kidney bloods today. Let's straighten the list out together.",
+      "translated_text": null,
+      "timestamp": "11:07:35"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "cg_whitfield",
+      "role": "caregiver",
+      "language": "en",
+      "text": "That would be a huge relief. I never know if I've got it right.",
+      "translated_text": null,
+      "timestamp": "11:07:55"
+    }
+  ]
+}

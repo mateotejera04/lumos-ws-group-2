@@ -1,0 +1,100 @@
+{
+  "conversation_id": "conv-004-med-reconciliation",
+  "ground_truth": {
+    "chief_complaint": "Routine medication review; daughter concerned about confusion over tablets",
+    "symptoms": [
+      {
+        "name": "fall",
+        "timing": "~2 weeks ago",
+        "context": "in the bathroom, felt wobbly (stated turn 6)"
+      },
+      {
+        "name": "feeling wobbly",
+        "detail": "described around the time of the fall"
+      }
+    ],
+    "relevant_history": [
+      "Atrial fibrillation (patient context)",
+      "Hypertension (patient context)",
+      "Osteoarthritis (patient context)",
+      "Mild cognitive impairment (patient context)",
+      "Medications managed by daughter in a dosette/pill organizer (stated turn 2)"
+    ],
+    "vitals": {
+      "status": "standing blood pressure stated as something the doctor wants to check (turn 8); not yet measured"
+    },
+    "diagnosis": {
+      "primary": "Medication discrepancies identified during reconciliation; doctor concerned about the new diuretic plus the fall (turn 8)"
+    },
+    "medication_discrepancies": [
+      {
+        "drug": "furosemide",
+        "issue": "added last month by previous GP for ankle swelling; not on the clinic's list (stated turn 4)"
+      },
+      {
+        "drug": "ibuprofen",
+        "issue": "old OTC ibuprofen taken intermittently for knees; not on record (stated turn 7); doctor notes it can interact with the blood thinner and blood pressure tablets (turn 8)"
+      }
+    ],
+    "reconciled_medication_list": [
+      {
+        "drug": "apixaban",
+        "dose": "5mg",
+        "frequency": "twice daily",
+        "source": "patient context + caregiver (turn 4)"
+      },
+      {
+        "drug": "bisoprolol",
+        "dose": "2.5mg",
+        "frequency": "once daily (morning)",
+        "source": "patient context + caregiver (turn 4)"
+      },
+      {
+        "drug": "amlodipine",
+        "dose": "5mg",
+        "frequency": "once daily (morning)",
+        "source": "patient context + caregiver (turn 4)"
+      },
+      {
+        "drug": "furosemide",
+        "dose": "not stated",
+        "frequency": "not stated",
+        "indication": "ankle swelling",
+        "source": "caregiver report (turn 4); not on clinic record"
+      },
+      {
+        "drug": "paracetamol",
+        "dose": "as needed",
+        "frequency": "as needed",
+        "source": "patient context"
+      },
+      {
+        "drug": "ibuprofen",
+        "dose": "OTC, not stated",
+        "frequency": "intermittent",
+        "indication": "knees",
+        "source": "caregiver report (turn 7); not on clinic record"
+      }
+    ],
+    "ordered_tests": [
+      "Standing blood pressure (stated turn 8)",
+      "Kidney blood tests (stated turn 8)"
+    ],
+    "prescribed_medication": [],
+    "procedures": [],
+    "referrals": [],
+    "follow_up": [
+      "Confirm the furosemide and sort out the medication list together (stated turns 4, 8)",
+      "Check standing blood pressure and kidney bloods today (stated turn 8)"
+    ],
+    "patient_education": [
+      "Doctor explained that the ibuprofen can interact with the blood thinner and blood pressure tablets (turn 8)"
+    ],
+    "clinical_note": {
+      "format": "medication_reconciliation",
+      "summary": "78F with AF, HTN, osteoarthritis and MCI (per context). Med rec with daughter. Identified furosemide added by previous GP (not on record) and intermittent OTC ibuprofen use. Reports a fall ~2 weeks ago with wobbliness.",
+      "assessment": "Medication discrepancies; doctor concerned about the new diuretic plus the fall and about an ibuprofen interaction.",
+      "plan": "Confirm furosemide and reconcile the list; flagged ibuprofen interaction; check standing BP and kidney bloods today."
+    }
+  }
+}

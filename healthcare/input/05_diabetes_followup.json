@@ -1,0 +1,137 @@
+{
+  "conversation_id": "conv-005-diabetes-followup",
+  "scenario": "chronic_disease_followup",
+  "title": "Chronic disease follow-up - type 2 diabetes review",
+  "setting": "Primary care clinic, routine diabetes annual review",
+  "languages": [
+    "en"
+  ],
+  "participants": [
+    {
+      "id": "dr_petersen",
+      "role": "doctor",
+      "name": "Dr. Petersen"
+    },
+    {
+      "id": "pt_alvarez",
+      "role": "patient",
+      "name": "Carlos Alvarez"
+    }
+  ],
+  "patient_context": {
+    "age": 61,
+    "sex": "male",
+    "known_conditions": [
+      "type 2 diabetes (8 years)",
+      "hyperlipidaemia",
+      "obesity"
+    ],
+    "current_medications": [
+      "metformin 1000mg twice daily",
+      "atorvastatin 20mg daily"
+    ],
+    "allergies": [
+      "none known"
+    ],
+    "reason_for_visit": "Annual diabetes review",
+    "recent_results": {
+      "hba1c_mmol_mol": 72,
+      "hba1c_percent": 8.7,
+      "egfr": 78,
+      "ldl_mmol_l": 2.1,
+      "bp": "142/88"
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "speaker_id": "dr_petersen",
+      "role": "doctor",
+      "language": "en",
+      "text": "Hi Carlos, good to see you. This is your annual diabetes review. How have things been going with your sugars and the tablets?",
+      "translated_text": null,
+      "timestamp": "10:15:00"
+    },
+    {
+      "turn": 2,
+      "speaker_id": "pt_alvarez",
+      "role": "patient",
+      "language": "en",
+      "text": "Honestly, not great. I take the metformin most days but I forget the evening one sometimes. And work's been stressful, so I've been eating out a lot. I've put on weight again.",
+      "translated_text": null,
+      "timestamp": "10:15:22"
+    },
+    {
+      "turn": 3,
+      "speaker_id": "dr_petersen",
+      "role": "doctor",
+      "language": "en",
+      "text": "Thanks for being honest, that helps. Your latest HbA1c came back at 72, which is higher than we'd like - our target for you is around 53. Have you noticed any symptoms - more thirst, getting up at night to pee, any tingling in your feet?",
+      "translated_text": null,
+      "timestamp": "10:15:50"
+    },
+    {
+      "turn": 4,
+      "speaker_id": "pt_alvarez",
+      "role": "patient",
+      "language": "en",
+      "text": "Yeah, I'm thirsty a lot, and I'm up two or three times in the night. My feet do feel a bit numb sometimes, especially the toes. I thought that was just from standing all day.",
+      "translated_text": null,
+      "timestamp": "10:16:18"
+    },
+    {
+      "turn": 5,
+      "speaker_id": "dr_petersen",
+      "role": "doctor",
+      "language": "en",
+      "text": "Okay. The numbness is something we should take seriously - it can be an early nerve effect from the diabetes, so I'll examine your feet today and check the sensation. Are you checking your blood sugars at home at all?",
+      "translated_text": null,
+      "timestamp": "10:16:45"
+    },
+    {
+      "turn": 6,
+      "speaker_id": "pt_alvarez",
+      "role": "patient",
+      "language": "en",
+      "text": "Not really. I have the meter but I ran out of the strips months ago and never got more.",
+      "translated_text": null,
+      "timestamp": "10:17:05"
+    },
+    {
+      "turn": 7,
+      "speaker_id": "dr_petersen",
+      "role": "doctor",
+      "language": "en",
+      "text": "Let's fix that. Here's what I'd suggest: I want to add a second medication, empagliflozin, which lowers your sugar and also protects your heart and kidneys. We'll keep the metformin going. Your blood pressure today is a bit high at 142 over 88, so I'd also like to start a small dose of ramipril. And I'll refer you to our diabetes nurse and dietitian for the eating side.",
+      "translated_text": null,
+      "timestamp": "10:17:40"
+    },
+    {
+      "turn": 8,
+      "speaker_id": "pt_alvarez",
+      "role": "patient",
+      "language": "en",
+      "text": "That's a lot of new things. Will the new sugar one give me side effects? My neighbour said those make you go to the toilet more.",
+      "translated_text": null,
+      "timestamp": "10:18:05"
+    },
+    {
+      "turn": 9,
+      "speaker_id": "dr_petersen",
+      "role": "doctor",
+      "language": "en",
+      "text": "Good question. Yes, empagliflozin makes you pass a bit more urine and a little extra sugar, so drink normally and keep the genital area clean to avoid thrush. Tell me straight away if you feel unwell, can't eat or drink, or your sugars are very high - we sometimes pause it then. I'll give you a leaflet too. Shall we go ahead?",
+      "translated_text": null,
+      "timestamp": "10:18:40"
+    },
+    {
+      "turn": 10,
+      "speaker_id": "pt_alvarez",
+      "role": "patient",
+      "language": "en",
+      "text": "Okay, yeah, let's try it. I do want to get this under control. My granddaughter was just born and I want to be around for her.",
+      "translated_text": null,
+      "timestamp": "10:19:00"
+    }
+  ]
+}

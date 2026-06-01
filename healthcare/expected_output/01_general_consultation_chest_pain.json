@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv-001-chest-pain",
+  "ground_truth": {
+    "chief_complaint": "Intermittent exertional chest pressure for one week",
+    "symptoms": [
+      {
+        "name": "chest pressure",
+        "location": "central",
+        "onset": "1 week ago",
+        "character": "tightness",
+        "provoking": "exertion (climbing stairs)",
+        "relieving": "rest within minutes",
+        "pattern": "exertional only, no rest pain"
+      },
+      {
+        "name": "left arm heaviness",
+        "association": "occurs with chest pressure"
+      },
+      {
+        "name": "exertional dyspnea"
+      }
+    ],
+    "relevant_history": [
+      "Hypertension (patient context)",
+      "Type 2 diabetes (patient context)",
+      "Family history: father had a heart attack at age 60 (stated turn 8)",
+      "Penicillin allergy (patient context)"
+    ],
+    "vitals": {
+      "status": "not measured during the conversation"
+    },
+    "diagnosis": {
+      "primary": "Angina (suspected) - stated by doctor as 'heart not getting enough blood when you exert yourself'",
+      "to_exclude": [
+        "Acute coronary syndrome - doctor states the pattern 'needs prompt evaluation' and 'we need to confirm today'"
+      ]
+    },
+    "ordered_tests": [
+      "ECG (stated)",
+      "Blood tests (stated; specific panel not specified)"
+    ],
+    "prescribed_medication": [
+      {
+        "drug": "aspirin",
+        "dose": "low dose (not specified)",
+        "frequency": "not specified",
+        "indication": "stated by doctor",
+        "source": "turn 11"
+      },
+      {
+        "drug": "glyceryl trinitrate spray",
+        "dose": "not specified",
+        "frequency": "to use if chest pain comes on",
+        "indication": "symptomatic relief",
+        "source": "turn 11"
+      }
+    ],
+    "procedures": [],
+    "referrals": [],
+    "follow_up": [
+      "Avoid climbing stairs / exertion until reviewed (stated turn 9)",
+      "Confirm diagnosis with the test results today (stated turn 11)"
+    ],
+    "patient_education": [
+      "Explanation that symptoms may be angina - the heart not getting enough blood on exertion (turn 11)",
+      "Use the GTN spray if the pain comes on (turn 11)"
+    ],
+    "clinical_note": {
+      "format": "SOAP",
+      "subjective": "54M with HTN and T2DM (per context) reports 1 week of intermittent central chest tightness, exertional (climbing stairs), relieved by rest within minutes. Associated left-arm heaviness and breathlessness on exertion. No rest pain; no prior episodes. Father had a heart attack at age 60.",
+      "objective": "No examination or vitals recorded in the conversation. ECG and blood tests ordered this visit.",
+      "assessment": "Suspected angina; needs same-day evaluation to confirm and to exclude an acute coronary cause.",
+      "plan": "ECG and blood tests today. Start low-dose aspirin and a GTN spray to use if pain occurs. Avoid exertion. Review results today."
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "conversation_id": "conv-005-diabetes-followup",
+  "ground_truth": {
+    "chief_complaint": "Annual diabetes review with poor glycaemic control",
+    "symptoms": [
+      {
+        "name": "increased thirst",
+        "source": "turn 4"
+      },
+      {
+        "name": "nocturia",
+        "detail": "up 2-3 times per night to urinate",
+        "source": "turn 4"
+      },
+      {
+        "name": "foot numbness",
+        "location": "toes/feet",
+        "detail": "intermittent; doctor notes it could be an early nerve effect of diabetes (turn 5)"
+      },
+      {
+        "name": "weight gain",
+        "source": "turn 2"
+      }
+    ],
+    "relevant_history": [
+      "Type 2 diabetes for 8 years (patient context)",
+      "Hyperlipidaemia (patient context)",
+      "Obesity (patient context)",
+      "Poor adherence - sometimes misses the evening metformin (stated turn 2)",
+      "Eating out a lot due to work stress (stated turn 2)",
+      "Not self-monitoring blood glucose - ran out of test strips (stated turn 6)"
+    ],
+    "vitals": {
+      "blood_pressure": "142/88 (stated turn 7)"
+    },
+    "recent_results": {
+      "hba1c_mmol_mol": 72,
+      "hba1c_percent": 8.7,
+      "target_hba1c_mmol_mol": 53,
+      "source": "stated turn 3; values also in patient context"
+    },
+    "diagnosis": {
+      "primary": "Type 2 diabetes - inadequately controlled (HbA1c 72 vs target ~53, stated turn 3)",
+      "secondary": [
+        "Possible early diabetic nerve effect in the feet (doctor's stated concern, turn 5)",
+        "Raised blood pressure 142/88 (stated turn 7)"
+      ]
+    },
+    "ordered_tests": [
+      "Foot examination with sensation check (stated turn 5)"
+    ],
+    "prescribed_medication": [
+      {
+        "drug": "metformin",
+        "dose": "1000mg",
+        "frequency": "twice daily",
+        "status": "continue",
+        "source": "patient context + 'keep the metformin going' (turn 7)"
+      },
+      {
+        "drug": "empagliflozin",
+        "dose": "not specified",
+        "frequency": "not specified",
+        "status": "new",
+        "indication": "lowers sugar, protects heart and kidneys (doctor's explanation, turn 7)"
+      },
+      {
+        "drug": "ramipril",
+        "dose": "small dose (not specified)",
+        "frequency": "not specified",
+        "status": "new",
+        "indication": "raised blood pressure (turn 7)"
+      }
+    ],
+    "procedures": [],
+    "referrals": [
+      "Diabetes nurse (stated turn 7)",
+      "Dietitian (stated turn 7)"
+    ],
+    "follow_up": [
+      "Re-supply blood glucose test strips and resume home monitoring ('let's fix that', turn 7)",
+      "Patient agreed to start the new medications (turn 10)"
+    ],
+    "patient_education": [
+      "Sick-day advice for empagliflozin - tell the team / it may be paused if unwell, unable to eat or drink, or very high sugars (turn 9)",
+      "Empagliflozin causes more urination and a little extra sugar; keep the genital area clean to avoid thrush (turn 9)",
+      "Leaflet to be provided (turn 9)"
+    ],
+    "clinical_note": {
+      "format": "SOAP",
+      "subjective": "61M with 8-year T2DM (per context) for annual review. Admits missing the evening metformin, eating out, and weight gain. Reports increased thirst, nocturia 2-3x/night, and intermittent toe numbness. Not self-monitoring (out of strips).",
+      "objective": "BP 142/88. HbA1c 72 mmol/mol (8.7%), target ~53. Foot exam to be performed this visit.",
+      "assessment": "Inadequately controlled T2DM with hyperglycaemic symptoms and possible early foot nerve involvement; raised blood pressure.",
+      "plan": "Continue metformin; start empagliflozin and a low dose of ramipril. Foot exam today. Refer to diabetes nurse and dietitian. Re-supply test strips. Sick-day and hygiene advice given; leaflet provided."
+    }
+  }
+}
