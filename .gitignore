@@ -1,0 +1,7 @@
+# env files (contain secrets — never commit)
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
